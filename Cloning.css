@@ -1,0 +1,105 @@
+body{
+	background: #F0F2F5;
+	font-family: inherit;
+	display: flex;
+}
+
+.maind{
+	font-weight: 900;
+	color: blue;
+	font-size: xx-large;
+	padding-top: 80px;
+
+}
+
+.mainp{
+	color: grey;
+	font-size: small;
+	font-weight: 200;
+}
+
+.nextd{
+	font-weight: 500;
+	font-size: x-large;
+}
+
+#obama{
+	width: 40px;
+	margin-right: 20px;
+}
+
+#none{
+	float: right;
+}
+
+#base{
+	background: #FFFFFF;
+	text-align: center;
+	color: grey;
+}
+
+#base1{
+	background: #FFFFFF;
+	text-align: center;
+	color: blue;
+}
+
+form{
+	background-color: white;
+	margin-left: 150px;
+	margin-top: 100px;
+	width: 400px;
+	border-radius: 10px;
+
+
+}
+
+.first{
+	padding-top: 1px;
+	width: 390px;
+	padding-left: 10px;
+}
+
+.second{
+	padding-top: 1px;
+	width: 390px;
+	padding-left: 10px;
+}
+
+#log{
+	padding-top: 1px;
+	width: 380px;
+	padding-left: 10px;
+	margin-left: 10px;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#forgot{
+	color: blue;
+	text-align: center;
+	font-size: small;
+}
+
+#create{
+	font-weight: 600;
+	padding-top: 1px;
+	width: 190px;
+	padding-left: 10px;
+	background-color: limegreen;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	border-color: limegreen;
+}
+
+.brand{
+	margin-top: 20px;
+	margin-left: 800px;
+	font-size: small;
+}
+
+.footerimg{
+	margin-top: 180px;
+}

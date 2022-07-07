@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Facebook login page</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Cloning.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 offset-md-1">
+				<h1 class="display-1 maind">facebook</h1>
+				<h1 class="display-4 nextd">Recent Logins</h1>
+				<p class="lead mainp"> Click your picture or add an account.</p>
+
+				<div class="card-deck">
+                    <div class="card" id="obama">
+                        <img src="https://images.unsplash.com/photo-1580130379624-3a069adbffc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJlc2lkZW50JTIwb2JhbWF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" height="150px" width="50px" class="card-img-top" alt="Obama">
+                        <div class="card-body">
+                            <p class="card-text" id="base">Obama</p>                            
+                        </div>
+                    </div>
+
+                    <div class="card" id="none">
+                        <img src="Fcbk add.png" class="card-img-top" height="150px" width="50px" alt="Add">
+                        <div class="card-body">                           
+                            <p class="card-text" id="base1">Add Account</p>
+                        </div>
+                    </div>
+  
+                </div>
+			</div>
+
+			<div class="col-md-4 offset-md-1">
+				<form>
+                    <div class="form-group first">
+                        <label for="exampleInputEmail1"></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email or phone number">
+                    </div>
+  
+                    <div class="form-group second">
+                        <label for="exampleInputPassword1"></label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="log">Log In</button>
+                    
+                    <p id="forgot">Forgot Password ?</p>
+
+                    <hr>
+                    <button type="submit" class="btn btn-primary" id="create">Create New Account</button>
+                </form>
+
+
+			</div>
+
+			<p class="brand"><strong>Create a Page</strong> for a celebrity, brand or business.</p>
+
+		</div>
+
+		<div class="row footerimg" style="background-color:white;">
+			<img src="footer.png" width="100%" class="img-fluid" alt="footer">
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
